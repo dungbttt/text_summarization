@@ -1,0 +1,20 @@
+[project]
+name = "text-summarization"
+authors = [{name = "cristiano2003", email = "nguyentrungtruc2003@gmail.com"}]
+version = "1.0.0"
+requires-python = ">=3.9"
+dependencies = [
+    "torch",
+    "lightning",
+    "torchsummary",
+    "transformers",
+    "datasets",
+    "rouge_score",
+    "rouge",
+    "gradio"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
